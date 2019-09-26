@@ -1,0 +1,72 @@
+nav div h1{
+    font-weight: 500;
+    font-size: 2.3em;
+    padding-top: 0;
+    margin-top: 6.8%;
+}
+
+
+#welcome-section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    
+    
+}
+
+#welcome-section h1,#welcome-section p{
+    align-self: center;
+    color: white;
+
+}
+
+#welcome-section p{
+    margin-left: 7%;
+}
+
+#projects img{
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#welcome-section h1{
+    display: block;
+    font-size: 3em;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 2em;
+}
+
+li{
+    display: inline-block;
+    margin-left: 3em;
+}
+
+nav{
+    background-color: lightcoral;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+@media (max-width: 900px){
+    body{
+        background-color: green;
+    }
+}
